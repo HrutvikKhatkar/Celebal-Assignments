@@ -55,3 +55,11 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+
+
+// create file
+// http://localhost:3000/create?filename=test.txt&content=HelloWorld
+// read file
+// http://localhost:3000/read?filename=test.txt
+// delete file
+// http://localhost:3000/delete?filename=test.txt
